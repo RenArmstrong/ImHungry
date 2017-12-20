@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.barmstrong.imhungry">
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyDXoP5sbCoJCDiuMeWTb9KI6jeWXBDrPO0" />
 
     <application
         android:allowBackup="true"
